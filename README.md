@@ -1,4 +1,4 @@
-# palestra-JavaScript
+# API-Viacep-JavaScript
 
 Aplicação JavaScrip que busca dados de endereço atraves do CEP usando a api viacep
 
