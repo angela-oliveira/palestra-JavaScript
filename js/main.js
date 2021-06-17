@@ -4,11 +4,9 @@ const main = document.getElementById('main')
 
 cepField.addEventListener('keyup', function(event) {
   if (event.key == 'Enter') {
-    let value = cepField.value
+    let cepvalue = cepField.value
     let nomeValue = nome.value
-    // main.insertAdjacentHTML('beforeend', `
-    // <div class="card"><p>${nomeValue}</p></div>`)
-    pesqusiarCep(value, nomeValue)
+    pesqusiarCep(cepvalue, nomeValue)
   }
 })
 
